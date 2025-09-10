@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Purement</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-gray-50 scroll-smooth">
+
+  <!-- Navbar -->
+  <div class="flex flex-wrap bg-white h-20 w-full shadow-md px-6">
+    <div class="flex items-center text-xl font-semibold text-black">
+      PureMent
+    </div>
+    <div class="flex-1 flex justify-end items-center space-x-6 text-black font-medium">
+      <a href="responsive.html" class="hover:text-gray-500">Home</a>
+      <a href="#about" class="hover:text-gray-500">About</a>
+      <a href="#menu" class="hover:text-gray-500">Menu</a>
+      <button class="bg-black px-4 py-2 rounded-lg text-white cursor-pointer">Log In</button>
+    </div>
+  </div>
+
+  <!-- About -->
+  <div id="about" class="bg-white w-full px-6 py-12 text-center md:text-left">
+    <h1 class="text-3xl md:text-5xl font-bold">Purity with PureMent</h1>
+    <p class="mt-4 text-gray-600">
+       Welcome to PureMent – where taste meets purity. We serve freshly prepared meals 
+      made from locally sourced ingredients, cooked with love and passion
+    </p>
+    <button class="mt-6 px-6 py-3 bg-black rounded-lg text-white cursor-pointer">Book a Table</button>
+  </div>
+
+  <!-- Img -->
+  <div class="p-6">
+    <img src="Assets/b2.webp" alt="img" class="w-full max-h-[500px] object-cover rounded-md shadow-lg">
+  </div>
+
+  <!-- Menu -->
+  <h2 id="menu" class="text-2xl md:text-3xl font-bold px-6">Our Specialties</h2>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8 p-6">
+    <div>
+      <img src="Assets/f3.jpg" class="w-full h-64 object-cover rounded-md shadow-lg">
+      <h3 class="mt-4 text-lg font-semibold">Grilled Peri-Peri Chicken</h3>
+      <p class="text-gray-600">Juicy chicken marinated with African spices</p>
+    </div>
+    <div>
+      <img src="Assets/f4.jpg" class="w-full h-64 object-cover rounded-md shadow-lg">
+      <h3 class="mt-4 text-lg font-semibold">Butter Garlic Prawns</h3>
+      <p class="text-gray-600">Fresh prawns tossed in butter and garlic</p>
+    </div>
+    <div>
+      <img src="Assets/f6.webp" class="w-full h-64 object-cover rounded-md shadow-lg">
+      <h3 class="mt-4 text-lg font-semibold">Cabernet Sauvignon Reserve</h3>
+      <p class="text-gray-600">A bold red wine with notes of blackberry, oak, and spice</p>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-12 p-6 items-center">
+    <div>
+      <h2 class="text-2xl md:text-3xl font-bold">Why Choose PureMent?</h2>
+      <h3 class="mt-6 text-lg font-semibold">Fresh Ingredients</h3>
+      <p class="text-gray-600">We use only the freshest and locally sourced ingredients in every dish</p>
+      <h3 class="mt-6 text-lg font-semibold">Cozy Ambience</h3>
+      <p class="text-gray-600">Relax and enjoy your meals in a warm, welcoming environment</p>
+      <h3 class="mt-6 text-lg font-semibold">Passionate Chefs</h3>
+      <p class="text-gray-600">Our chefs are dedicated to bringing unique flavors to your table</p>
+      <div class="mt-8 flex space-x-4">
+        <button class="px-6 py-2 bg-black rounded-lg text-white cursor-pointer">Explore Menu</button>
+        <button class="px-6 py-2 bg-gray-300 rounded-lg text-black cursor-pointer">Contact Us</button>
+      </div>
+    </div>
+    <div>
+      <img src="Assets/f5.jpg" class="w-full h-80 object-cover rounded-md shadow-lg">
+    </div>
+  </div>
+
+  <!-- Menu 2 -->
+  <h2 class="text-2xl md:text-3xl font-bold px-6">Refreshments Corner</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 p-6">
+    <div>
+      <img src="Assets/f2.webp" class="w-full h-64 object-cover rounded-md shadow-lg">
+      <h3 class="mt-4 text-lg font-semibold">Refreshing Mojito</h3>
+      <p class="text-gray-600">A chilled blend of lime, mint, and soda for the perfect refreshment</p>
+    </div>
+    <div>
+      <img src="Assets/f1.webp" class="w-full h-64 object-cover rounded-md shadow-lg">
+      <h3 class="mt-4 text-lg font-semibold">Classic Soup</h3>
+      <p class="text-gray-600">Rich and creamy soup served with crispy breadsticks</p>
+    </div>
+  </div>
+
+  <!-- Testimonials -->
+  <h2 class="text-2xl md:text-3xl font-bold px-6">What Our Customers Say</h2>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6 p-6">
+    <div class="bg-white border border-gray-300 rounded-lg p-6 shadow-sm">
+      <h3 class="font-semibold">"Best dining experience ever!"</h3>
+      <div class="flex items-center mt-6 gap-3">
+        <img src="Assets/praveen.jpg" class="h-10 w-10 rounded-full object-cover shadow">
+        <div>
+          <p class="text-sm font-medium">Praveen Suthar</p>
+          <p class="text-xs text-gray-500">Food Blogger</p>
+        </div>
+      </div>
+    </div>
+    <div class="bg-white border border-gray-300 rounded-lg p-6 shadow-sm">
+      <h3 class="font-semibold">"Delicious food & amazing staff"</h3>
+      <div class="flex items-center mt-6 gap-3">
+        <img src="Assets/p1.png" class="h-10 w-10 rounded-full object-cover shadow">
+        <div>
+          <p class="text-sm font-medium">Priyanka Gehlot</p>
+          <p class="text-xs text-gray-500">Customer</p>
+        </div>
+      </div>
+    </div>
+    <div class="bg-white border border-gray-300 rounded-lg p-6 shadow-sm">
+      <h3 class="font-semibold">"A perfect place for family dinners"</h3>
+      <div class="flex items-center mt-6 gap-3">
+        <img src="Assets/bulbul.jpg" class="h-10 w-10 rounded-full object-cover shadow">
+        <div>
+          <p class="text-sm font-medium">Poornima M</p>
+          <p class="text-xs text-gray-500">Entrepreneur</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="grid grid-cols-1 md:grid-cols-4 gap-8 bg-gray-100 p-8">
+    <div>
+      <p class="font-semibold">PureMent</p>
+      <p class="text-gray-600 mt-2">Serving purity on your plate since 2025</p>
+      <div class="flex space-x-4 mt-4 text-gray-600 text-lg">
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook cursor-pointer"></i></a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin cursor-pointer"></i></a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram cursor-pointer"></i></a>
+        <a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-twitter cursor-pointer"></i></a>
+      </div>
+    </div>
+    <div class="text-right">
+      <h3 class="font-semibold">Quick Links</h3>
+      <ul class="mt-4 space-y-2 cursor-pointer">
+        <li><a href="responsive.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+      </ul>
+    </div>
+    <div class="text-right">
+      <h3 class="font-semibold">Services</h3>
+      <ul class="mt-4 space-y-2 cursor-pointer">
+        <li>Dine In</li>
+        <li>Takeaway</li>
+        <li>Catering</li>
+      </ul>
+    </div>
+    <div class="text-right">
+      <h3 class="font-semibold">Contact</h3>
+      <ul class="mt-4 space-y-2">
+        <li>Email: <a href="#">info@purement.com</a></li>
+        <li>Phone: +91 95888 50749</li>
+        <li>Location: <a href="https://www.google.com/maps" target="_blank" rel="noopener noreferrer">Ahmedabaad, India</a></li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>
